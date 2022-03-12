@@ -1,0 +1,50 @@
+<doc type html>
+<html>
+<head>
+
+<tittle></tittle>
+</head>
+<body>
+<form>
+
+<label>patient name</label>
+<input name="form"type=text>
+</br>
+<lavel>Bio</label>
+
+<br>
+<label>Gender</label>
+<input type="radio"name="gender"/>female
+<input type="radio"name="gender"/>male
+<input type="radio"name="gender"/>others
+</br>
+<label>Age</label>
+<input type="radio"name="age"/>0-12yrs
+<input type="radio"name="age"/>13-19yrs
+<input type="radio"name="age"/>20-35yrs
+<input type="radio"name="age"/>>35yrs
+<br>
+
+<label><b>blood pressure</b></label>
+</br>
+<input type="checkbox"name="systolic(mmHg)"/>systolic(mmHg)
+<input type="checkbox"name="diastolic(mmHg)"/>diastolic(mmHg)
+</br>
+<label><b>body mass index</b></label>
+</br>
+<input type ="checkbox"name="weight(kgs)"/>weight(kgs)
+<input type="checkbox"name="height(metres)"/>height(metres)
+<br>
+
+<label><b>status</b></label>
+<br>
+<input type="submit"name="submit"value="send"/>
+<input type="submit"name="submit"value="cancel"/>
+
+
+
+
+
+</body>
+
+</html>
